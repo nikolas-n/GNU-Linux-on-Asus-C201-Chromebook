@@ -1,5 +1,5 @@
 # GNU/Linux and Asus C201 Chromebook
-Here you canf find links and guides to install and configure GNU/Linux on Asus C201(P/PA) Chromebook. I do not guarantee that any of them really works. I have noted down what I have tried and what it worked for me. The experience is absolutely personal and I do not (and cannot) claim that any image/distro does not work for another person.
+Here you canf find links and guides to install and configure GNU/Linux on Asus C201 (C201P or C201PA) Chromebook (veryon speedy). I do not guarantee that any of them really works. I have noted down what I have tried and what it worked for me. The experience is absolutely personal and I do not (and cannot) claim that any image/distro does not work for another person.
 
 I am trying to gather as much information as possible, so I will also post stuff not necessarily complete like forum posts, because they might be of use for other people.
 
@@ -26,3 +26,6 @@ I followed the guide with altering just the distro from Jessie to Stretch. Could
 
 ### [Slackware](http://www.linuxquestions.org/questions/slackware-arm-108/installing-slackware-on-arm-chromebook-4175589620/)
 That's just a very interesting forum topic on linuxquestions.org where some people claim that they managed to install [Slackware](http://www.slackware.com/) (version 14.1) on the machine. I haven't tried that yet.
+
+### [Kali Linux](https://github.com/offensive-security/kali-arm-build-scripts)
+I haven't tried it but the script provided for the C201 ([here](https://github.com/offensive-security/kali-arm-build-scripts/blob/master/chromebook-arm-veyron.sh)) is very helpful in understanding the whole procedure of making an SD work for the chromebook.
