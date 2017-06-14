@@ -12,14 +12,17 @@ The installation was very straightforward. Disassembling the chromebook was a bi
 
 ## Installing GNU/Linux distros on the Asus C201 Chromebook (tested and not)
 
-### [ArchLinux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!]
-This guide is for another chromebook, C100P, but it's the only one that worked straight away without absolutely any problem. I installed X and xfce and, apart from some freezes, it just works.
+### [Arch Linux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!]
+This guide of installing [Arch Linux ARM](https://archlinuxarm.org/) is for another chromebook, C100P, but it's the only one that worked straight away without absolutely any problem. I installed X and xfce and, apart from some freezes, it just works.
 
 ### [Parabola](https://wiki.parabola.nu/index.php?title=Migration_from_the_GNU/Linux_distribution_of_Arch_ARM&redirect=no)
-This is a guide to migrate the ArchLinux installation to a Parabola one. Parabola is one of the few [FSF endorsed](https://www.gnu.org/distros/free-distros.en.html) GNU/Linux distributions.
+This is a guide to migrate the Arch Linux installation to a [Parabola](https://www.parabola.nu/) one. Parabola is one of the few [FSF endorsed](https://www.gnu.org/distros/free-distros.en.html) GNU/Linux distributions.
 
 ### [Devsus](https://github.com/dimkr/devsus) Libre Devuan (a fork of Debian without the evil systemd)
 I generated the two images (2GB and 16GB one) with `devsus.sh` on a Debian Jessie machine, I `dd`-ed the 2GB on a SD card but I have not yet managed to boot it on the chromebook. I get a beep as if the SD is not bootable. These days though I'm trying to make it work (see [here](https://github.com/dimkr/devsus/issues/3)).
 
 ### [Debian Jessie](https://wiki.debian.org/InstallingDebianOn/Asus/C201)
-I followed the guide with altering just the distro from Jessie to Stretch. Couldn't boot it. I eventually managed to make it work with the kernel from the Arch Linux ARM distro but haven't managed to get wifi to work too yet.
+I followed the guide with altering just the distro from Jessie to Stretch. Couldn't boot it. I eventually managed to make it work with the kernel from the Arch Linux ARM distro but haven't managed to get wifi to work too yet. [Here](http://forums.debian.net/viewtopic.php?f=30&t=124429) you can find a discussion related to installing Debian on the machine. [This blog](http://galexander.org/chromebook) of Greg Alexander and in particular [this post](http://galexander.org/chromebook/#17-04-23) are also very helpful.
+
+### [Slackware](http://www.linuxquestions.org/questions/slackware-arm-108/installing-slackware-on-arm-chromebook-4175589620/)
+That's just a very interesting forum topic on linuxquestions.org where some people claim that they managed to install [Slackware](http://www.slackware.com/) (version 14.1) on the machine. I haven't tried that yet.
