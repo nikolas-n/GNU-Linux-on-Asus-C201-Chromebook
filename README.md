@@ -1,5 +1,5 @@
 # GNU/Linux and Asus C201 Chromebook
-Here you canf find links and guides to install and configure GNU/Linux on Asus C201 (C201P or C201PA) Chromebook (veryon speedy). I do not guarantee that any of them really works. I have noted down what I have tried and what it worked for me. The experience is absolutely personal and I do not (and cannot) claim that any image/distro does not work for another person.
+Here you can find links and guides about installing and configuring GNU/Linux on the Asus C201 (C201P or C201PA) Chromebook (veryon speedy). I do not guarantee that any of them really works. I have noted down what I have tried and what it worked for me. The experience is absolutely personal and I do not (and cannot) claim that any image/distro does not work for another person.
 
 I am trying to gather as much information as possible, so I will also post stuff not necessarily complete like forum posts, because they might be of use for other people.
 
