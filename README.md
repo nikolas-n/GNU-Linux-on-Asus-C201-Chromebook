@@ -18,7 +18,9 @@ This guide of installing [Arch Linux ARM](https://archlinuxarm.org/) is for anot
 ### [Parabola](https://wiki.parabola.nu/index.php?title=Migration_from_the_GNU/Linux_distribution_of_Arch_ARM&redirect=no)
 This is a guide to migrate the Arch Linux installation to a [Parabola](https://www.parabola.nu/) one. Parabola is one of the few [FSF endorsed](https://www.gnu.org/distros/free-distros.en.html) GNU/Linux distributions.
 
-### [Devsus](https://github.com/dimkr/devsus) Libre Devuan (a fork of Debian without the evil systemd)
+### [Devsus](https://github.com/dimkr/devsus)
+Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
+
 I generated the two images (2GB and 16GB one) with `devsus.sh` on a Debian Jessie machine, I `dd`-ed the 2GB on a SD card but I have not yet managed to boot it on the chromebook. I get a beep as if the SD is not bootable. These days though I'm trying to make it work (see [here](https://github.com/dimkr/devsus/issues/3)).
 
 ### [Debian Jessie](https://wiki.debian.org/InstallingDebianOn/Asus/C201)
@@ -26,6 +28,11 @@ I followed the guide with altering just the distro from Jessie to Stretch. Could
 
 ### [Slackware](http://www.linuxquestions.org/questions/slackware-arm-108/installing-slackware-on-arm-chromebook-4175589620/)
 That's just a very interesting forum topic on linuxquestions.org where some people claim that they managed to install [Slackware](http://www.slackware.com/) (version 14.1) on the machine. I haven't tried that yet.
+
+### [Dragora](https://github.com/NuclearKev/dragora-c201)
+From the `README.md` of the repo:
+> This repo is a guide on how to install Dragora version 3 on the C201 Chromebook. Some of the things require some GNU/Linux know-how but I will attempt to make it easy to understand. This will not only help you install Dragora but should also help you boot your own modified version of Linux/Linux-libre or any ARM-supported GNU/Linux distributions on the C201.
+
 
 ### [Kali Linux](https://github.com/offensive-security/kali-arm-build-scripts)
 I haven't tried it but the script provided for the C201 ([here](https://github.com/offensive-security/kali-arm-build-scripts/blob/master/chromebook-arm-veyron.sh)) is very helpful in understanding the whole procedure of making an SD work for the chromebook.
