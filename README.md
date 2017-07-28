@@ -23,7 +23,7 @@ Devsus is a project for installing Libre Devuan (a fork of Debian without the ev
 
 I generated the two images (2GB and 16GB one) with `devsus.sh` on a Debian Jessie machine, I `dd`-ed the 2GB on a SD card but I have not yet managed to boot it on the chromebook. I get a beep as if the SD is not bootable. You may find more on the specific issue [here](https://github.com/dimkr/devsus/issues/3).
 
-## [Debian Stretch](https://github.com/atopuzov/c201)
+### [Debian Stretch](https://github.com/atopuzov/c201)
 Install Debian Stretch with the debian mainline kernel (not the Chrome OS one), more specifically the kernel `4.9.0-3-armmp-lpae`.
 
 ### [Debian Jessie](https://wiki.debian.org/InstallingDebianOn/Asus/C201)
