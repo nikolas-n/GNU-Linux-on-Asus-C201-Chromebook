@@ -21,7 +21,10 @@ This is a guide to migrate the Arch Linux installation to a [Parabola](https://w
 ### [Devsus](https://github.com/dimkr/devsus)
 Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
 
-I generated the two images (2GB and 16GB one) with `devsus.sh` on a Debian Jessie machine, I `dd`-ed the 2GB on a SD card but I have not yet managed to boot it on the chromebook. I get a beep as if the SD is not bootable. These days though I'm trying to make it work (see [here](https://github.com/dimkr/devsus/issues/3)).
+I generated the two images (2GB and 16GB one) with `devsus.sh` on a Debian Jessie machine, I `dd`-ed the 2GB on a SD card but I have not yet managed to boot it on the chromebook. I get a beep as if the SD is not bootable. You may find more on the specific issue [here](https://github.com/dimkr/devsus/issues/3).
+
+## [Debian Stretch](https://github.com/atopuzov/c201)
+Install Debian Stretch with the debian mainline kernel (not the Chrome OS one), more specifically the kernel `4.9.0-3-armmp-lpae`.
 
 ### [Debian Jessie](https://wiki.debian.org/InstallingDebianOn/Asus/C201)
 I followed the guide with altering just the distro from Jessie to Stretch. Couldn't boot it. I eventually managed to make it work with the kernel from the Arch Linux ARM distro but haven't managed to get wifi to work too yet. [Here](http://forums.debian.net/viewtopic.php?f=30&t=124429) you can find a discussion related to installing Debian on the machine. [This blog](http://galexander.org/chromebook) of Greg Alexander and in particular [this post](http://galexander.org/chromebook/#17-04-23) are also very helpful.
