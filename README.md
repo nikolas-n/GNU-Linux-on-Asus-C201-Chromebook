@@ -18,6 +18,10 @@ This guide of installing [Arch Linux ARM](https://archlinuxarm.org/) is for anot
 ### [Parabola](https://wiki.parabola.nu/index.php?title=Migration_from_the_GNU/Linux_distribution_of_Arch_ARM&redirect=no)
 This is a guide to migrate the Arch Linux installation to a [Parabola](https://www.parabola.nu/) one. Parabola is one of the few [FSF endorsed](https://www.gnu.org/distros/free-distros.en.html) GNU/Linux distributions.
 
+### [Gentoo](https://wiki.gentoo.org/index.php?title=Asus_Chromebook_C201)
+From the `Introduction` of the page:
+> While there's a fair bit of documentation on how others have installed Devuan/Arch on this computer, there's very little information in the Gentoo realm on the Asus C201/C100P, other devices with an RK3288 SoC, or ARM Chromebooks in general. This is how I managed to get Gentoo working on the C201. I went the Libreboot route, but that's up to you. 
+
 ### [Devsus](https://github.com/dimkr/devsus)
 Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
 
@@ -35,7 +39,6 @@ That's just a very interesting forum topic on linuxquestions.org where some peop
 ### [Dragora](https://github.com/NuclearKev/dragora-c201)
 From the `README.md` of the repo:
 > This repo is a guide on how to install Dragora version 3 on the C201 Chromebook. Some of the things require some GNU/Linux know-how but I will attempt to make it easy to understand. This will not only help you install Dragora but should also help you boot your own modified version of Linux/Linux-libre or any ARM-supported GNU/Linux distributions on the C201.
-
 
 ### [Kali Linux](https://github.com/offensive-security/kali-arm-build-scripts)
 I haven't tried it but the script provided for the C201 ([here](https://github.com/offensive-security/kali-arm-build-scripts/blob/master/chromebook-arm-veyron.sh)) is very helpful in understanding the whole procedure of making an SD work for the chromebook.
