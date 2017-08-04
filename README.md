@@ -42,3 +42,8 @@ From the `README.md` of the repo:
 
 ### [Kali Linux](https://github.com/offensive-security/kali-arm-build-scripts)
 I haven't tried it but the script provided for the C201 ([here](https://github.com/offensive-security/kali-arm-build-scripts/blob/master/chromebook-arm-veyron.sh)) is very helpful in understanding the whole procedure of making an SD work for the chromebook.
+
+## Setting up Linux Distributions
+
+### Alsa configuration
+[Jan Prunk](http://janprunk.com/) has written a guide on how to setup ALSA on a C201 running Debian (originally Jessie and then update to Stretch) in this [blog post](http://blog.janprunk.com/?p=1038).
