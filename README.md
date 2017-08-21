@@ -22,7 +22,7 @@ This is a guide to migrate the Arch Linux installation to a [Parabola](https://w
 From the `Introduction` of the page:
 > While there's a fair bit of documentation on how others have installed Devuan/Arch on this computer, there's very little information in the Gentoo realm on the Asus C201/C100P, other devices with an RK3288 SoC, or ARM Chromebooks in general. This is how I managed to get Gentoo working on the C201. I went the Libreboot route, but that's up to you. 
 
-### [Devsus](https://github.com/dimkr/devsus)
+### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/details/devuan-jessie-c201-libre-2GB)
 Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
 
 I generated the two images (2GB and 16GB one) with `devsus.sh` on a Debian Jessie machine, I `dd`-ed the 2GB on a SD card but I have not yet managed to boot it on the chromebook. I get a beep as if the SD is not bootable. You may find more on the specific issue [here](https://github.com/dimkr/devsus/issues/3).
