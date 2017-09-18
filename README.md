@@ -25,7 +25,7 @@ From the `Introduction` of the page:
 ### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/details/devuan-jessie-c201-libre-2GB)
 Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
 
-I generated the two images (2GB and 16GB one) with `devsus.sh` on a Debian Jessie machine, I `dd`-ed the 2GB on a SD card but I have not yet managed to boot it on the chromebook. I get a beep as if the SD is not bootable. You may find more on the specific issue [here](https://github.com/dimkr/devsus/issues/3).
+To successfully compile the image, you need to run it on a Devuan machine. I failed to produce the image on my Debian Stretch. Nonetheless, I downloaded the image and dd-ed it to an SD card and this distro works far better than the Arch Linux one; I highly recommend it!
 
 ### [Debian Stretch](https://github.com/atopuzov/c201)
 Install Debian Stretch with the debian mainline kernel (not the Chrome OS one), more specifically the kernel `4.9.0-3-armmp-lpae`.
