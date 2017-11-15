@@ -12,6 +12,11 @@ The installation was very straightforward. Disassembling the chromebook was a bi
 
 ## Installing GNU/Linux distros on the Asus C201 Chromebook (tested and not)
 
+### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/details/devuan-jessie-c201-libre-2GB)
+Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
+
+To successfully compile the image, you need to run it on a Devuan machine. I failed to produce the image on my Debian Stretch. Nonetheless, I downloaded the image and dd-ed it to an SD card and this distro works far better than the Arch Linux one; I highly recommend it!
+
 ### [Arch Linux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!]
 This guide of installing [Arch Linux ARM](https://archlinuxarm.org/) is for another chromebook, C100P, but it's the only one that worked straight away without absolutely any problem. I installed X and xfce and, apart from some freezes, it just works.
 
@@ -21,11 +26,6 @@ This is a guide to migrate the Arch Linux installation to a [Parabola](https://w
 ### [Gentoo](https://wiki.gentoo.org/index.php?title=Asus_Chromebook_C201)
 From the `Introduction` of the page:
 > While there's a fair bit of documentation on how others have installed Devuan/Arch on this computer, there's very little information in the Gentoo realm on the Asus C201/C100P, other devices with an RK3288 SoC, or ARM Chromebooks in general. This is how I managed to get Gentoo working on the C201. I went the Libreboot route, but that's up to you. 
-
-### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/details/devuan-jessie-c201-libre-2GB)
-Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
-
-To successfully compile the image, you need to run it on a Devuan machine. I failed to produce the image on my Debian Stretch. Nonetheless, I downloaded the image and dd-ed it to an SD card and this distro works far better than the Arch Linux one; I highly recommend it!
 
 ### [Debian Stretch](https://github.com/atopuzov/c201)
 Install Debian Stretch with the debian mainline kernel (not the Chrome OS one), more specifically the kernel `4.9.0-3-armmp-lpae`.
@@ -42,6 +42,9 @@ From the `README.md` of the repo:
 
 ### [Kali Linux](https://github.com/offensive-security/kali-arm-build-scripts)
 I haven't tried it but the script provided for the C201 ([here](https://github.com/offensive-security/kali-arm-build-scripts/blob/master/chromebook-arm-veyron.sh)) is very helpful in understanding the whole procedure of making an SD work for the chromebook.
+
+### [Fedora](https://fedoraproject.org/wiki/Architectures/ARM/Chromebook)
+You can have a try. There are instructions only for the ChromeOS kernel, the respective instructions for the mainline one are not yet present.
 
 ## Setting up Linux Distributions
 
