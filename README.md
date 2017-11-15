@@ -44,7 +44,7 @@ From the `README.md` of the repo:
 I haven't tried it but the script provided for the C201 ([here](https://github.com/offensive-security/kali-arm-build-scripts/blob/master/chromebook-arm-veyron.sh)) is very helpful in understanding the whole procedure of making an SD work for the chromebook.
 
 ### [Fedora](https://fedoraproject.org/wiki/Architectures/ARM/Chromebook)
-You can have a try. There are instructions only for the ChromeOS kernel, the respective instructions for the mainline one are not yet present.
+You can give it a try. There are instructions only for the ChromeOS kernel, the respective instructions for the mainline one are not yet present.
 
 ## Setting up Linux Distributions
 
