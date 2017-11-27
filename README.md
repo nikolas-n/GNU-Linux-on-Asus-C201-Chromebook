@@ -46,6 +46,11 @@ I haven't tried it but the script provided for the C201 ([here](https://github.c
 ### [Fedora](https://fedoraproject.org/wiki/Architectures/ARM/Chromebook)
 You can give it a try. There are instructions only for the ChromeOS kernel, the respective instructions for the mainline one are not yet present.
 
+### [Ubuntu Mate](https://github.com/mibs510/ubuntu-mate-armhf)
+> The Ubuntu MATE team have made an Ubuntu MATE 15.04 root file system image for ARMv7 devices. This root file system is intended for ARMv7 enthusiasts and board manufacturers who'd like to make an Ubuntu MATE image for their device.
+
+(from the repository)
+
 ## Setting up Linux Distributions
 
 ### Alsa configuration
