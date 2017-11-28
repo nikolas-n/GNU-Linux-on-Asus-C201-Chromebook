@@ -59,4 +59,4 @@ You can give it a try. There are instructions only for the ChromeOS kernel, the 
 ## Setting up Linux Distributions
 
 ### Alsa configuration
-[Jan Prunk](http://janprunk.com/) has written a guide on how to setup ALSA on a C201 running Debian (originally Jessie and then update to Stretch) in this [blog post](http://blog.janprunk.com/?p=1038).
+[Jan Prunk](http://janprunk.com/) has written a guide on how to setup ALSA on a C201 running Debian (originally Jessie and then update to Stretch) in this [blog post](http://blog.janprunk.com/?p=1038). Try also [this link](https://notabug.org/dimkr/devsus/issues/14#issuecomment-6543), if the previous is unavailable.
