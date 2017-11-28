@@ -12,6 +12,11 @@ The installation was very straightforward. Disassembling the chromebook was a bi
 
 ## Installing GNU/Linux distros on the Asus C201 Chromebook (tested and not)
 
+*Good news!* You can always boot the chromebook from a *USB*!
+> For anybody else having this problem booting from USB on a C201, I was having the same problem. I tried installing debian jessie, debian stretch and arch and wasn't able to boot any of them. Then I realized that if I took out the USB drive and then put it back in and waited about 4-5 seconds, I could Ctrl-U and it would boot. (first I have to Ctrl-H to hold the libreboot screen.)
+
+([link to original (Arch Linux ARM forum)](https://archlinuxarm.org/forum/viewtopic.php?f=60&t=12062&p=57254&sid=f4cfa1697408be24091cf8896c14e487#p57254)
+
 ### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/details/devuan-jessie-c201-libre-2GB)
 Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
 
