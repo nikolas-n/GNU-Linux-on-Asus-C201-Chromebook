@@ -22,7 +22,7 @@ Devsus is a project for installing Libre Devuan (a fork of Debian without the ev
 
 To successfully compile the image, you need to run it on a Devuan machine. I failed to produce the image on my Debian Stretch. Nonetheless, I downloaded the image and dd-ed it to an SD card and this distro works far better than the Arch Linux one; I highly recommend it!
 
-## [Devuan (non-deblobbed kernel)](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/) [It works!]
+#### [Devuan (non-deblobbed kernel)](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/) [It works!]
 [This image](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/devuan_jessie_1.0.0_armhf_chromeveyron.img.xz) ([with installation guide](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/README.txt)) is the Devuan distribution but with a non-free kernel, i.e. the internal Broadcom wifi chip works.
 
 ### [Arch Linux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!]
