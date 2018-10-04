@@ -28,6 +28,18 @@ To successfully compile the image, you need to run it on a Devuan machine. I fai
 ### [Arch Linux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!]
 This guide of installing [Arch Linux ARM](https://archlinuxarm.org/) is for another chromebook, C100P, but it's the only one that worked straight away without absolutely any problem. **I installed X, lightdm and MATE and it just works**. I haven't yet tested the webcam and the HDMI but will do soon.
 
+### [PrawnOS](https://github.com/SolidHal/PrawnOS) [It Works!] [Compiled images available under "releases"]
+Build Debian filesystem with:
+* No blobs, anywhere. 
+* Sources from only main, not contrib or non-free which keeps Debian libre.
+* Currently PrawnOS supports xfce and lxqt as choices for desktop enviroment. 
+
+Build a deblobbed mainline kernel with:
+* Patches for reliable usb.
+* Patches to support the custom GPT partition table required to boot.
+* Support for Atheros AR9271 and AR7010 WiFi dongles
+* Support for CSR8150 bluetooth dongles
+
 ### [Parabola](https://wiki.parabola.nu/index.php?title=Migration_from_the_GNU/Linux_distribution_of_Arch_ARM&redirect=no)
 This is a guide to migrate the Arch Linux installation to a [Parabola](https://www.parabola.nu/) one. Parabola is one of the few [FSF endorsed](https://www.gnu.org/distros/free-distros.en.html) GNU/Linux distributions.
 
