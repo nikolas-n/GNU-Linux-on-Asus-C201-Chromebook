@@ -49,7 +49,7 @@ Then you'll be able to boot. To install any package from pacman, you'll need to 
 
 ```pacman-key --populate```
 
-Then, you'll have to restore the /usr/lib/systemd/system to what it was. Before rebooting, also delete the contents of /tmp/*
+Then, you'll have to restore the `/usr/lib/systemd/system/systemd-tmpfiles-setup.service` to what it was. Before rebooting, also delete the contents of /tmp/*
 
 It will work.
 
