@@ -17,7 +17,7 @@ The installation was very straightforward. Disassembling the chromebook was a bi
 
 [link to original (Arch Linux ARM forum)](https://archlinuxarm.org/forum/viewtopic.php?f=60&t=12062&p=57254&sid=f4cfa1697408be24091cf8896c14e487#p57254)
 
-### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/details/devuan-jessie-c201-libre-2GB)
+### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/download/devuan-jessie-c201-libre-2GB/devuan-jessie-c201-libre-2GB.img)
 Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
 
 To successfully compile the image, you need to run it on a Devuan machine. I failed to produce the image on my Debian Stretch. Nonetheless, I downloaded the image and dd-ed it to an SD card and this distro works far better than the Arch Linux one; I highly recommend it!
