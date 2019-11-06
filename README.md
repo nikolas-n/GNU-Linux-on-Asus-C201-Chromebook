@@ -81,7 +81,7 @@ I followed the guide with altering just the distro from Jessie to Stretch. Could
 ### [Slackware](http://www.linuxquestions.org/questions/slackware-arm-108/installing-slackware-on-arm-chromebook-4175589620/)
 That's just a very interesting forum topic on linuxquestions.org where some people claim that they managed to install [Slackware](http://www.slackware.com/) (version 14.1) on the machine. I haven't tried that yet.
 
-### [Dragora](https://github.com/NuclearKev/dragora-c201)
+### [Dragora](https://notabug.org/nuclearkev/dragora-c201)
 From the `README.md` of the repo:
 > This repo is a guide on how to install Dragora version 3 on the C201 Chromebook. Some of the things require some GNU/Linux know-how but I will attempt to make it easy to understand. This will not only help you install Dragora but should also help you boot your own modified version of Linux/Linux-libre or any ARM-supported GNU/Linux distributions on the C201.
 
