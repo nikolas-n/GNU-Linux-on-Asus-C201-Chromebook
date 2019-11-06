@@ -44,7 +44,9 @@ to
 `ExecStart=echo "whatever"`
 
 Then you'll be able to boot. To install any package from pacman, you'll need to run
+
 ```pacman-key --init```
+
 ```pacman-key --populate```
 
 Then, you'll have to restore the /usr/lib/systemd/system to what it was. Before rebooting, also delete the contents of /tmp/*
