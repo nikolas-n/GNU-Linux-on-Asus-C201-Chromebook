@@ -25,8 +25,31 @@ To successfully compile the image, you need to run it on a Devuan machine. I fai
 #### [Devuan (non-deblobbed kernel)](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/) [It works!]
 [This image](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/devuan_jessie_1.0.0_armhf_chromeveyron.img.xz) ([with installation guide](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/README.txt)) is the Devuan distribution but with a non-free kernel, i.e. the internal Broadcom wifi chip works.
 
-### [Arch Linux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!]
+### [Arch Linux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!] [Well... With some modifications now... Details below!]
 This guide of installing [Arch Linux ARM](https://archlinuxarm.org/) is for another chromebook, C100P, but it's the only one that worked straight away without absolutely any problem. **I installed X, lightdm and MATE and it just works**. I haven't yet tested the webcam and the HDMI but will do soon.
+
+Following the same guide now with [the latest version of the OS](http://os.archlinuxarm.org/os/ArchLinuxARM-veyron-latest.tar.gz), at the time of writing that is 04-Oct-2019, the boot will hang on Network Services and Create Volatile Files and Directories. To fix that, I just deleted a couple of files and made some other changes... The following:
+
+* Delete /usr/lib/systemd/system/systemd-networkd.service
+* Delete /etc/resolv.conf
+* Delete /etc/resolvconf.conf
+* Create /etc/resolv.conf and add nameserver 8.8.8.8
+* Delete /usr/lib/systemd/system/systemd-timesyncd.service
+* Change the following line of  /usr/lib/systemd/system/systemd-tmpfiles-setup.service :
+ 
+`ExecStart=/usr/bin/systemd-tmpfiles --create --remove --boot --exclude-prefix=/dev` 
+
+to 
+
+`ExecStart=echo "whatever"`
+
+Then you'll be able to boot. To install any package from pacman, you'll need to run
+```pacman-key --init```
+```pacman-key --populate```
+
+Then, you'll have to restore the /usr/lib/systemd/system to what it was. Before rebooting, also delete the contents of /tmp/*
+
+It will work.
 
 ### [PrawnOS](https://github.com/SolidHal/PrawnOS) [It Works!] [Compiled images available under "releases"]
 Build Debian filesystem with:
