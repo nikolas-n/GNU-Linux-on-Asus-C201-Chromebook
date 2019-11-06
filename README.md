@@ -85,7 +85,7 @@ That's just a very interesting forum topic on linuxquestions.org where some peop
 From the `README.md` of the repo:
 > This repo is a guide on how to install Dragora version 3 on the C201 Chromebook. Some of the things require some GNU/Linux know-how but I will attempt to make it easy to understand. This will not only help you install Dragora but should also help you boot your own modified version of Linux/Linux-libre or any ARM-supported GNU/Linux distributions on the C201.
 
-### [Kali Linux](https://github.com/offensive-security/kali-arm-build-scripts)
+### [Kali Linux](https://gitlab.com/kalilinux/build-scripts/kali-arm)
 I haven't tried it but the script provided for the C201 ([here](https://github.com/offensive-security/kali-arm-build-scripts/blob/master/chromebook-arm-veyron.sh)) is very helpful in understanding the whole procedure of making an SD work for the chromebook.
 
 ### [Fedora](https://fedoraproject.org/wiki/Architectures/ARM/Chromebook)
