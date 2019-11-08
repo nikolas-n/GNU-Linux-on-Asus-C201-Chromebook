@@ -12,6 +12,9 @@ The installation was very straightforward. Disassembling the chromebook was a bi
 
 ## Installing GNU/Linux distros on the Asus C201 Chromebook (tested and not)
 
+If you want a plug and play image, you can take that from the torrent I'm seeding (you can find the torrent in this repo: ArchLinuxARM-veyron-latest_with-x11-lightdm-mate.tar.bz2.torrent. It's the latest (as of Nov-08-2019) Arch Linux ARM distro where I've installed X11, lightdm and mate and it works!.
+
+
 *Good news!* You can always boot the chromebook from a *USB*!
 > For anybody else having this problem booting from USB on a C201, I was having the same problem. I tried installing debian jessie, debian stretch and arch and wasn't able to boot any of them. Then I realized that if I took out the USB drive and then put it back in and waited about 4-5 seconds, I could Ctrl-U and it would boot. (first I have to Ctrl-H to hold the libreboot screen.)
 
@@ -26,6 +29,7 @@ To successfully compile the image, you need to run it on a Devuan machine. I fai
 [This image](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/devuan_jessie_1.0.0_armhf_chromeveyron.img.xz) ([with installation guide](https://mirror.leaseweb.com/devuan/devuan_jessie/embedded/README.txt)) is the Devuan distribution but with a non-free kernel, i.e. the internal Broadcom wifi chip works.
 
 ### [Arch Linux ARM](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) [It works!] [Well... With some modifications now... Details below!]
+
 This guide of installing [Arch Linux ARM](https://archlinuxarm.org/) is for another chromebook, C100P, but it's the only one that worked straight away without absolutely any problem. **I installed X, lightdm and MATE and it just works**. I haven't yet tested the webcam and the HDMI but will do soon.
 
 Following the same guide now with [the latest version of the OS](http://os.archlinuxarm.org/os/ArchLinuxARM-veyron-latest.tar.gz), at the time of writing that is 04-Oct-2019, the boot will hang on Network Services and Create Volatile Files and Directories. To fix that, I just deleted a couple of files and made some other changes... The following:
