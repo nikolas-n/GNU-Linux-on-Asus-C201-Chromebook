@@ -12,7 +12,7 @@ The installation was very straightforward. Disassembling the chromebook was a bi
 
 ## Installing GNU/Linux distros on the Asus C201 Chromebook (tested and not)
 
-If you want a plug and play image, you can take that from the torrent I'm seeding (you can find the torrent in this repo: ArchLinuxARM-veyron-latest_with-x11-lightdm-mate.tar.bz2.torrent. It's the latest (as of Nov-08-2019) Arch Linux ARM distro where I've installed X11, lightdm and mate and it works!.
+If you want a plug and play image, you can take that from the torrent I'm seeding (you can find the torrent in this repo: ArchLinuxARM-veyron-latest_with-x11-lightdm-mate.tar.bz2.torrent. It's the latest (as of Nov-08-2019) Arch Linux ARM distro where I've installed X11, lightdm and mate. It hasn't been tested yet, so I'm not sure it is working. In any case, you'll still need to have a boot partition, so you should (partly) follow [this](https://archlinuxarm.org/platforms/armv7/rockchip/asus-chromebook-flip-c100p) guide. Good luck!
 
 
 *Good news!* You can always boot the chromebook from a *USB*!
