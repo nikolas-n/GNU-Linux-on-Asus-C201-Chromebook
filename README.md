@@ -20,6 +20,31 @@ If you want a plug and play image, you can take that from the torrent I'm seedin
 
 [link to original (Arch Linux ARM forum)](https://archlinuxarm.org/forum/viewtopic.php?f=60&t=12062&p=57254&sid=f4cfa1697408be24091cf8896c14e487#p57254)
 
+### [CrawfishOS](https://github.com/austin987/crawfishos) [It works!]
+CrawfishOS is a fork of PrawnOS (mentioned later on in this document), and the one I've been personally using for the last few years.
+Unfortunately, the github repository is now archived.
+
+```
+nik@crawfishos:~$ neofetch 
+       _,met$$$$$gg.          nik@crawfishos 
+    ,g$$$$$$$$$$$$$$$P.       -------------- 
+  ,g$$P"     """Y$$.".        OS: Debian GNU/Linux 11 (bullseye) armv7l 
+ ,$$P'              `$$$.     Host: Google Speedy 
+',$$P       ,ggs.     `$$b:   Kernel: 5.9.12-CrawfishOS-blobby 
+`d$$'     ,$P"'   .    $$$    Uptime: 68 days, 36 mins 
+ $$P      d$'     ,    $$P    Packages: 2002 (dpkg) 
+ $$:      $$.   -    ,d$$'    Shell: bash 5.1.4 
+ $$;      Y$b._   _,d$P'      Resolution: 1920x1080 
+ Y$$.    `.`"Y$$$$P"'         WM: Metacity (Marco) 
+ `$$b      "-.__              Theme: Adwaita [GTK3] 
+  `Y$$                        Icons: Adwaita [GTK3] 
+   `Y$$.                      Terminal: /dev/pts/1 
+     `$$b.                    CPU: Rockchip (Device Tree) (4) @ 1.800GHz 
+       `Y$$b.                 Memory: 615MiB / 4012MiB 
+          `"Y$b._
+              `"""                                    
+```
+
 ### [Devsus](https://github.com/dimkr/devsus) [It works!] [compiled image](https://archive.org/download/devuan-jessie-c201-libre-2GB/devuan-jessie-c201-libre-2GB.img)
 Devsus is a project for installing Libre Devuan (a fork of Debian without the evil systemd) on the machine.
 
