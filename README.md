@@ -101,6 +101,14 @@ This is a guide to migrate the Arch Linux installation to a [Parabola](https://w
 From the `Introduction` of the page:
 > While there's a fair bit of documentation on how others have installed Devuan/Arch on this computer, there's very little information in the Gentoo realm on the Asus C201/C100P, other devices with an RK3288 SoC, or ARM Chromebooks in general. This is how I managed to get Gentoo working on the C201. I went the Libreboot route, but that's up to you. 
 
+### [Debian Trixie](https://themusicinnoise.net/blog/2025-10-20-how-to-install-debian-trixie-on-the-asus-c201/)
+
+Install Debian Trixie with the mainline Linux kernel. If you don't already have
+a functional GNU/Linux distribution installed on the C201, you'll have to
+install one on a spare USB drive. The guide uses ArchLinuxARM for this purpose.
+
+Installation on the eMMC has not be attempted.
+
 ### [Debian Stretch](https://github.com/atopuzov/c201)
 Install Debian Stretch with the debian mainline kernel (not the Chrome OS one), more specifically the kernel `4.9.0-3-armmp-lpae`.
 
